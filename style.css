@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: M-Heading-Font;
+    font-weight: 400;
+    src: url(https://cdn.shopify.com/s/files/1/0042/0750/9567/files/Butler_Regular.otf?v=1622447581);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: M-Heading-Font;
+    font-weight: 300;
+    src: url(https://cdn.shopify.com/s/files/1/0042/0750/9567/files/Butler_Light.otf?v=1622447581);
+    font-display: swap;
+}
+
+:root {
+    --font-stack-header: 'M-Heading-Font';
+    --font-weight-header: 300;
+}
+
+@font-face {
+    font-family: M-Body-Font;
+    font-weight: 400;
+    src: url(https://cdn.shopify.com/s/files/1/0042/0750/9567/files/Jost-Regular.ttf?v=1622447664);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: M-Body-Font;
+    font-weight: 500;
+    src: url(https://cdn.shopify.com/s/files/1/0042/0750/9567/files/Jost-Medium.ttf?v=1622443602);
+    font-display: swap;
+}
+
+:root {
+    --font-stack-body: 'M-Body-Font';
+    --font-weight-body: 400;
+    ;
+}
+body{
+    background-color: #F2EFE8;
+}
+.extra{
+    background-color: #857251;
+    color: white;
+    font-family: var(--font-stack-body);
+    text-align: center;
+    padding: 9px 0px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+   margin: 0px 150px;
+align-items: center;
+}
+.logo{
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 515px;
+    margin-left: 300px;
+}
+
+.nav p{
+font-size: 16px;
+font-family: var(--font-stack-body);
+font-weight: var(--font-weight-header);
+}
+.nav i{
+    font-size: 20px;
+}
+.nav p, .nav i{
+    margin-top: 30px;
+}
+
+.coffee{
+    text-align: center;
+    margin: 50px 0px;
+align-items: center;
+}
+.text p{
+    font-family: var(--font-stack-header);
+    text-align: center;
+    width: 28%;
+    margin: 20px 36%;
+    font-size: 30px;
+}
